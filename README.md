@@ -44,7 +44,7 @@ Since Temi is an Android-based robot, the first step is to [install Android Stud
 Clone this directory to your local machine using Git or your preferred method.
 
 ```sh
-  git clone -b Master2.0 https://gitlab-fi.ostfalia.de/hcr-lab/robot-control/middleware/node-red-setup-for-temi-robot.git
+  git clone https://github.com/Robotics-Empowerment-Designer/temi-middleware.git
 ```
 
 ### 2. Open the Temi-App Folder:
