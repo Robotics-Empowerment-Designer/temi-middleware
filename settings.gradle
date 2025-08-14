@@ -1,0 +1,5 @@
+include ':opencv'
+include ':open'
+include ':openCVLibrary'
+include ':sdk'
+include ':opencv4.10'

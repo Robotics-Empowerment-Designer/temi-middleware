@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="210dp"
+    android:viewportWidth="250"
+    android:viewportHeight="210">
+
+    <!-- white sclera-->
+    <path
+        android:name="sclera"
+        android:fillColor="#FFFFFF"
+        android:pathData="M125,105
+                          m-125,0
+                          a125,105 0 1,0 250,0
+                          a125,105 0 1,0 -250,0" />
+
+
+    <!-- black pupil-->
+    <path
+        android:name="pupil"
+        android:fillColor="#000000"
+        android:pathData="M125,105
+                          m-75,0
+                          a50,50 0 1,0 150,0
+                          a50,50 0 1,0 -150,0"/>
+
+</vector>

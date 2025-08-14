@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- rounded corners background layer -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#e3e1da" />
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+    <!-- Ripple layer -->
+    <item>
+        <ripple android:color="@color/colorAccent">
+            <item android:id="@+id/mask">
+                <shape xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="#e3e1da" />
+                    <corners android:radius="16dp"/>
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+</layer-list>
